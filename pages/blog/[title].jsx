@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import Treading from '.././Treading';
 import { data } from '../../data';
+import Image from 'next/image'
 
 const BlogPost = () => {
   const router = useRouter();
@@ -30,8 +31,13 @@ const BlogPost = () => {
           <div className="share">Share</div>
         </div>
         <div className='flex justify-center'>
-          
-          <img src={blogPost.image} alt="" />
+        <Image
+        src={blogPost.image}
+      alt="Landscape picture"
+      width={600}
+      height={500}
+    />
+          {/* <img src={blogPost.image} alt="" /> */}
         </div>
         <div className="blogpost h-fit text-xl leading-normal md:text-lg md:tracking-wider mb-5">
           {blogPost.post}
