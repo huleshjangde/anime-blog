@@ -4,21 +4,17 @@ import { data } from '../../data';
 
 const BlogPost = () => {
   const router = useRouter();
-  const { title } = router.query; // Extract the blog post title from the URL
+  const { title } = router.query; 
   const handleGoBack = () => {
-    router.back(); // Navigate back to the previous page
-  };
-
-  // Import the animeBlogPosts array
-
-  // Find the blog post based on the title from the URL
+    router.back(); //back
+  }
   const blogPost = data.find((post) => post.title === title);
 
   if (!blogPost) {
-    // Handle the case when the blog post is not found
-    return <p>Blog post not found.</p>;
-  }
 
+    return <p>Blog post not found.</p>;
+  
+  }
   return (
     <>
       <div className="text-black mt-16 px-5 md:px-40 flex flex-col gap-4">
