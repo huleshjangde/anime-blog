@@ -20,7 +20,6 @@ const Blognav = () => {
 
   const handleCategoryClick = (categoryName) => {
     setCategory(categoryName);
-    console.log(categoryName);
   };
 
   return (
