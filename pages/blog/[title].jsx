@@ -34,6 +34,7 @@ const BlogPost = () => {
           <div className="share">Share</div>
         </div>
         <div className='flex justify-center'>
+          
           <img src={blogPost.image} alt="" />
         </div>
         <div className="blogpost h-fit text-xl leading-normal md:text-lg md:tracking-wider mb-5">
