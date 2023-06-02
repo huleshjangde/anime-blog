@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -40,3 +40,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 =======
 # anime-blog
 >>>>>>> 23bc6b66056ff4a3f7e80f3b1c5db2628c2e4e9f
+=======
+# anime-blog
+>>>>>>> origin/main
