@@ -10,10 +10,12 @@ const BlogSection = (rev) => {
   return (
     <>
       <section className={classes}>
-        <div
+        {/* <div
           className="left w-full md:w-1/2 h-72 bg-cover bg-center"
           style={{ backgroundImage: `url("${blogData.image}")` }}
-        ></div>
+        >
+
+        </div> */}
 
         <div className="right w-full md:w-1/2 flex items-center px-5 md:px-10 bg-red-400 bg-opacity-10 relative">
           <div
