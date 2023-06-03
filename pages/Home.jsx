@@ -8,8 +8,11 @@ const Home = () => {
   return (
    <>
    <HeroSection/>
+
    <Treading/>
 <Sread/>
+<Treading/>
+
 <Blognav/>  
    </>
   )
