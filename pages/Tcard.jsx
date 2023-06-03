@@ -14,7 +14,9 @@ const Tcard = (post) => {
             <p>{post.postDate}</p>
           </div>
 
-          <p className="title text-lg font-bold h-16 mb-3">{post.title}</p>
+      <div className=" w-full h-16 overflow-hidden line-clamp-2  flex justify-items-center items-center">
+          <p className="title text-lg font-bold w-full h-fit">{post.title}</p>
+          </div>
 
           <div className="desc text-gray-500 line-clamp-3 text-sm">
             {post.post}
