@@ -10,11 +10,11 @@ const Tcard = (post) => {
       <div className="right w-auto flex items-center  md:px-5 relative mt-2 py-3">
         <div className="h-auto w-full flex flex-col gap-2 px-4 md:px-0">
           <div className="flex gap-4 text-xs">
-            <p className="font-medium">{post.category}</p>
+            <p className="font-medium">{post.categorie}</p>
             <p>{post.postDate}</p>
           </div>
 
-          <p className="title text-lg font-bold">{post.title}</p>
+          <p className="title text-lg font-bold h-16 mb-3">{post.title}</p>
 
           <div className="desc text-gray-500 line-clamp-3 text-sm">
             {post.post}

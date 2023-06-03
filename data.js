@@ -2,7 +2,7 @@ export const data = [
     {
       id: 1,
   title: "Whispers of Time: A Tale of Destiny and Sacrifice",
-  category: "comedy",
+  categorie:  "comedy",
   image: "https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2022/12/fatestrangefakewhispersofdawn_previewscreenshot.png?resize=696%2C392&ssl=1",
   post: `Spirited Away is a captivating animated film directed by Hayao Miyazaki. The story revolves around a young girl named Chihiro, who finds herself trapped in a mystical realm after her parents unknowingly wander into a strange abandoned amusement park.
 
@@ -22,7 +22,7 @@ export const data = [
     {
       id: 2,
       title: "The Journey of Heroes",
-      categorie: "military" ,
+      categorie: "military",
       image: "https://img.freepik.com/free-photo/cartoon-character-with-handbag-sunglasses_71767-99.jpg?w=740&t=st=1685648404~exp=1685649004~hmac=9ac403643c3c9508d0abd6e1cbe0af410170d1272e6efb9545f575bd2b7f2096",
     post: `
     In a realm where darkness loomed and evil held sway, a band of unlikely heroes embarked on a perilous journey to restore light and hope to their land. This is the tale of "The Journey of Heroes."

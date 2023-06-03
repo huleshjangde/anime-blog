@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Tcard from "./Tcard";
-import SectionHeader from "../components/SectionHeader";
 import { data } from "../data";
 
 const Blognav = () => {
@@ -11,7 +10,6 @@ const Blognav = () => {
     { id: 2, name: "fantasy" },
     { id: 3, name: "drama" },
     { id: 4, name: "action" },
-    { id: 5, name: "history" },
     { id: 6, name: "military" },
   ];
 
@@ -25,22 +23,20 @@ const Blognav = () => {
   return (
     <>
       <section className="md:px-20 md:py-10 w-screen h-full ">
-        <p className="heading text-lg font-medium px-2 md:px-10 mb-2 w-fit">
-          Blog
+        <p className="heading  font-medium px-2 md:px-10 mb-2 text-center w-full text-xl">
+         ALL BLOGS
         </p>
-        <SectionHeader />
-        <div className=" md:flex gap-5 px-10 mt-10 text-lg font-medium flex overflow-hidden">
+        <div className=" md:flex justify-center flex-wrap gap-2  md:gap-5 px-10 mt-10 text-lg font-medium flex overflow-hidden bg-gray-900 text-slate-200 uppercase text-center items-center py-2 rounded-md mx-4 md:mx-0">
           {categories.slice(0,5).map((category) => (
             <div key={category.id}>
-              <button onClick={() => handleCategoryClick(category.name)}>
+              <button className="uppercase hover:text-gray-900 hover:bg-slate-200 px-1" onClick={() => handleCategoryClick(category.name)}>
                 {category.name}
               </button>
             </div>
           ))}
         </div>
-        <SectionHeader />
 
-        <div className="blogs flex gap-5 mt-8 justify-center items-center px-2 md:px-10">
+        <div className="blogs flex gap-5 mt-8 justify-center items-center px-2 md:px-10 ">
           {filteredData.map((item) => (
             <Tcard key={item.id} {...item} />
           ))}
