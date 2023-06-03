@@ -18,7 +18,7 @@ const Navbar = () => {
             Anime-Lover
           </Link>
         </div>
-        <p>huleshjangde1@gmail.com</p>
+        <p className='hidden md:block'>huleshjangde1@gmail.com</p>
         <ul className="md:flex items-center hidden ">
           <li className="ml-4">
             <Link href="/" className="hover:text-blue-500">
