@@ -178,7 +178,7 @@ export const data = [
         id: 8,
         title: "The Magical Fantasy World",
         category: "fantasy",
-        image: "https://example.com/fantasy-image.jpg",
+      image: "https://img.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_107791-1624.jpg?w=1380&t=st=1685648825~exp=1685649425~hmac=e15efcddb779ee55ad22c03b156944f415cf580e89d6294f46f2b55c2240a5d9",
         post: "Step into a magical fantasy world filled with enchanting creatures, epic quests, and breathtaking adventures...",
         postDate: "June 20, 2023",
         postBy: "Sarah Thompson",
@@ -188,7 +188,8 @@ export const data = [
         id: 9,
         title: "The Emotional Drama Series",
         category: "drama",
-        image: "https://example.com/drama-image.jpg",
+        image: "https://img.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_107791-1624.jpg?w=1380&t=st=1685648825~exp=1685649425~hmac=e15efcddb779ee55ad22c03b156944f415cf580e89d6294f46f2b55c2240a5d9",
+
         post: "Experience a rollercoaster of emotions with this gripping drama series that explores the complexities of human relationships...",
         postDate: "June 25, 2023",
         postBy: "Michael Brown",
@@ -198,7 +199,8 @@ export const data = [
         id: 10,
         title: "The Thrilling Action Movie",
         category: "action",
-        image: "https://example.com/action-image.jpg",
+      image: "https://img.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_107791-1624.jpg?w=1380&t=st=1685648825~exp=1685649425~hmac=e15efcddb779ee55ad22c03b156944f415cf580e89d6294f46f2b55c2240a5d9",
+
         post: `Certainly! Here's a brief summary of the enchanting tale of "Spirited Away":
 
       "Spirited Away" is a captivating animated film directed by Hayao Miyazaki. The story revolves around a young girl named Chihiro, who finds herself trapped in a mystical realm after her parents unknowingly wander into a strange abandoned amusement park.
@@ -222,7 +224,8 @@ export const data = [
         id: 11,
         title: "The Fascinating Historical Documentary",
         category: "history",
-        image: "https://example.com/history-image.jpg",
+      image: "https://img.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_107791-1624.jpg?w=1380&t=st=1685648825~exp=1685649425~hmac=e15efcddb779ee55ad22c03b156944f415cf580e89d6294f46f2b55c2240a5d9",
+
         post: `Certainly! Here's a brief summary of the enchanting tale of "Spirited Away":
 
       "Spirited Away" is a captivating animated film directed by Hayao Miyazaki. The story revolves around a young girl named Chihiro, who finds herself trapped in a mystical realm after her parents unknowingly wander into a strange abandoned amusement park.
@@ -246,7 +249,9 @@ export const data = [
         id: 12,
         title: "The Journey of Heroes",
         category: "military",
-        image: "https://example.com/military-image.jpg",
+      image: "https://img.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_107791-1624.jpg?w=1380&t=st=1685648825~exp=1685649425~hmac=e15efcddb779ee55ad22c03b156944f415cf580e89d6294f46f2b55c2240a5d9",
+
+        
         post: `Certainly! Here's a brief summary of the enchanting tale of "Spirited Away":
 
         "Spirited Away" is a captivating animated film directed by Hayao Miyazaki. The story revolves around a young girl named Chihiro, who finds herself trapped in a mystical realm after her parents unknowingly wander into a strange abandoned amusement park.
