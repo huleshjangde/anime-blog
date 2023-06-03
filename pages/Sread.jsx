@@ -5,12 +5,12 @@ import 'slick-carousel/slick/slick-theme.css';
 import Tcard from './Tcard';
 import Link from 'next/link';
 import ShortCard from './ShortCard';
-import { CustomNextArrow,CustomPrevArrow } from './components/Sliderbtn';
+import { CustomNextArrow,CustomPrevArrow } from '../components/Sliderbtn';
 import { data } from '../data';
 
 
 
-import SectionHeader from './components/SectionHeader';
+import SectionHeader from '../components/SectionHeader';
 
 const Sread = () => {
 

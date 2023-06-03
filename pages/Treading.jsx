@@ -7,8 +7,8 @@ import Link from 'next/link';
 import './style.css'
 import { data } from '../data';
 
-import SectionHeader from './components/SectionHeader';
-import { CustomNextArrow,CustomPrevArrow } from './components/Sliderbtn';
+import SectionHeader from '../components/SectionHeader';
+import { CustomNextArrow,CustomPrevArrow } from '../components/Sliderbtn';
 
 
 const Treading = () => {

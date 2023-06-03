@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Tcard from "./Tcard";
-import SectionHeader from "./components/SectionHeader";
+import SectionHeader from "../components/SectionHeader";
 import { data } from "../data";
 
 const Blognav = () => {

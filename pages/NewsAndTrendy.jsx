@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionHeader from './components/SectionHeader'
+import SectionHeader from '../components/SectionHeader'
 import BlogSection from './BlogSection'
 import { data } from '../data'
 import Link from 'next/link'
