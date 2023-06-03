@@ -18,8 +18,9 @@ const BlogSection = (rev) => {
         <div className="right w-full md:w-1/2 flex items-center px-5 md:px-10 bg-red-400 bg-opacity-10 relative">
           <div
             className="bg-cover bg-center w-full h-full absolute left-0 opacity-25 -z-0"
-            style={{ backgroundImage: 'url("./imgs/blogbg.png")' }}
-          ></div>
+          >
+            
+          </div>
           <div className="w-full h-full absolute left-0 bg-white opacity-70"></div>
 
           <div className="h-auto w-full flex-col flex z-30">
